@@ -2,17 +2,23 @@ html {
     box-sizing: border-box;
     min-height: 100%;
 }
-*, *:before, *:after {
-box-sizing: inherit;
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
 }
+
 body {
     min-height: 100%;
     font-family: 'Montserrat', sans-serif;
     background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
 }
+
 h2 {
     text-align: center;
 }
+
 .contenedor {
     max-width: 800px;
     margin: 0 auto;
@@ -21,5 +27,18 @@ h2 {
 }
 
 
+/* Media Object */
 
+.contenedor-comentario {
+    display: flex;
+    align-items: flex-start;
+}
 
+.contenedor-comentario .avatar {
+    margin-right: 1rem;
+}
+
+.segundo-nivel {
+    background-color: #e1e1e1;
+    padding: 1rem;
+}
