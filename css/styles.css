@@ -42,3 +42,37 @@ h2 {
     background-color: #e1e1e1;
     padding: 1rem;
 }
+
+
+/* Footer */
+
+.pagina {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.pagina h1,
+.pagina h2 {
+    margin: 0;
+}
+
+.pagina>* {
+    padding: 1rem;
+}
+
+.pagina .encabezado {
+    background-color: #CDDC39;
+}
+
+.pagina .contenido-principal {
+    background-color: #B2DFDB;
+    max-width: 800px;
+    margin: 0 auto;
+    flex: 1;
+}
+
+.pagina .footer {
+    background-color: #212121;
+    color: #ffffff;
+}
